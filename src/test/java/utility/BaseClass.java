@@ -4,7 +4,7 @@ package utility;
 import java.time.Duration;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.WebDriver;
+
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
@@ -12,7 +12,7 @@ import org.openqa.selenium.edge.EdgeDriver;
 import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
-import org.testng.Assert;
+
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.Parameters;
@@ -88,14 +88,12 @@ public class BaseClass extends Listernerclass
 	driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));	
 	
 	
-	WebElement ele= driver.findElement(By.xpath("//h4[text()='Click the button below to continue shopping']"));
 	
-	String text=ele.getText();
 	
-	if(text.equalsIgnoreCase("Click the button below to continue shopping")) {
+//	if(driver.getTitle().equalsIgnoreCase("")) {
 		
-		driver.findElement(By.xpath("//button[@class='a-button-text']")).click();
-	}
+//		driver.findElement(By.xpath("//button[@class='a-button-text']")).click();
+//	}
 	
 	
 		

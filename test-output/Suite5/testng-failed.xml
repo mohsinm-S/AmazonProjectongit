@@ -9,7 +9,7 @@
         <methods>
           <include name="launchbrowser"/>
           <include name="quitbrowser"/>
-          <include name="searchElectronics" invocation-numbers="0"/>
+          <include name="searchElectronics"/>
         </methods>
       </class> <!-- bdd.AmazonProject1.TestCase8_LoginAndNavigateElectronic -->
     </classes>
