@@ -25,7 +25,7 @@
       <span class="top-banner-title-font">Test results</span>
       <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -39,7 +39,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" panel-name="suite-Regression_Suite" class="navigator-link">
-              <span class="suite-name border-passed">Regression Suite</span>
+              <span class="suite-name border-failed">Regression Suite</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -60,7 +60,7 @@
                 </li>
                 <li>
                   <a href="#" panel-name="group-Regression_Suite" class="navigator-link ">
-                    <span>3 groups</span>
+                    <span>2 groups</span>
                   </a> <!-- navigator-link  -->
                 </li>
                 <li>
@@ -92,7 +92,45 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">14 methods,   14 passed</span>
+                    <span class="method-stats">14 methods, 1 failed,  3 skipped,  10 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods failed suite-Regression_Suite"> (hide)</a> <!-- hide-methods failed suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods failed suite-Regression_Suite"> (show)</a> <!-- show-methods failed suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content failed suite-Regression_Suite">
+                      <span>
+                        <img src="failed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase5_LoginandAddtoCart" class="method navigator-link" hash-for-method="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-Regression_Suite -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Retried methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Regression_Suite" class="hide-methods skipped suite-Regression_Suite"> (hide)</a> <!-- hide-methods skipped suite-Regression_Suite -->
+                      <a href="#" panel-name="suite-Regression_Suite" class="show-methods skipped suite-Regression_Suite"> (show)</a> <!-- show-methods skipped suite-Regression_Suite -->
+                    </span>
+                    <div class="method-list-content skipped suite-Regression_Suite">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase5_LoginandAddtoCart" class="method navigator-link" hash-for-method="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase5_LoginandAddtoCart" class="method navigator-link" hash-for-method="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.Testcase1_LoginToAmazon" class="method navigator-link" hash-for-method="loginwithValidcredentials(9704221424, Saniya@0209)">loginwithValidcredentials(9704221424, Saniya@0209)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Regression_Suite -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -103,32 +141,12 @@
                     <div class="method-list-content passed suite-Regression_Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems" class="method navigator-link" hash-for-method="RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)">RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems" class="method navigator-link" hash-for-method="RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2)">RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems" class="method navigator-link" hash-for-method="addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)">addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems" class="method navigator-link" hash-for-method="addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2)">addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase5_LoginandAddtoCart" class="method navigator-link" hash-for-method="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase5_LoginandAddtoCart" class="method navigator-link" hash-for-method="addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4)">addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase9_LoginAndPayment" class="method navigator-link" hash-for-method="checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4)">checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -143,12 +161,17 @@
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.Testcase2_LoginAndlogout" class="method navigator-link" hash-for-method="logoutToAmazon(9704221424, Saniya@0209)">logoutToAmazon(9704221424, Saniya@0209)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="passed.png" width="3%"/>
                         <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.Testcase2_LoginAndlogout" class="method navigator-link" hash-for-method="logoutToAmazon(6304188726, Saniya@1234)">logoutToAmazon(6304188726, Saniya@1234)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.Testcase2_LoginAndlogout" class="method navigator-link" hash-for-method="logoutToAmazon(9704221424, Saniya@0209)">logoutToAmazon(9704221424, Saniya@0209)</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase3_LoginandSearchProduct" class="method navigator-link" hash-for-method="searchProduct(6304188726, Saniya@1234, Men shoe, 1)">searchProduct(6304188726, Saniya@1234, Men shoe, 1)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -166,11 +189,6 @@
                         <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase3_LoginandSearchProduct" class="method navigator-link" hash-for-method="searchProduct(9704221424, Saniya@0209, Mobiles, 3)">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Regression_Suite" title="bdd.AmazonProject1.TestCase3_LoginandSearchProduct" class="method navigator-link" hash-for-method="searchProduct(6304188726, Saniya@1234, Men shoe, 1)">searchProduct(6304188726, Saniya@1234, Men shoe, 1)</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
                     </div> <!-- method-list-content passed suite-Regression_Suite -->
                   </li>
                 </ul>
@@ -183,33 +201,9 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-Regression_Suite" class="panel Regression_Suite">
-          <div class="suite-Regression_Suite-class-passed">
+          <div class="suite-Regression_Suite-class-failed">
             <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">bdd.AmazonProject1.Testcase1_LoginToAmazon</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginwithValidcredentials(6304188726, Saniya@1234)">
-                  </a> <!-- loginwithValidcredentials(6304188726, Saniya@1234) -->
-                  <span class="method-name">loginwithValidcredentials</span>
-                  <span class="parameters">(6304188726,Saniya@1234)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="loginwithValidcredentials(9704221424, Saniya@0209)">
-                  </a> <!-- loginwithValidcredentials(9704221424, Saniya@0209) -->
-                  <span class="method-name">loginwithValidcredentials</span>
-                  <span class="parameters">(9704221424,Saniya@0209)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-passed -->
-          <div class="suite-Regression_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
+              <img src="failed.png"/>
               <span class="class-name">bdd.AmazonProject1.TestCase5_LoginandAddtoCart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
@@ -219,14 +213,136 @@
                   </a> <!-- addtoCard(9704221424, Saniya@0209, Jackets, 3, 2) -->
                   <span class="method-name">addtoCard</span>
                   <span class="parameters">(9704221424,Saniya@0209,Jackets,3,2)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at bdd.AmazonProject1.HomePage.signinClick(HomePage.java:93)
+	at bdd.AmazonProject1.TestCase5_LoginandAddtoCart.addtoCard(TestCase5_LoginandAddtoCart.java:32)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-failed -->
+          <div class="suite-Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">bdd.AmazonProject1.TestCase5_LoginandAddtoCart</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">
+                  </a> <!-- addtoCard(9704221424, Saniya@0209, Jackets, 3, 2) -->
+                  <span class="method-name">addtoCard</span>
+                  <span class="parameters">(9704221424,Saniya@0209,Jackets,3,2)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;add-to-cart-button&quot; name=&quot;submit.add-to-cart&quot; title=&quot;Add to Shopping Cart&quot; data-hover=&quot;Select &amp;lt;b&amp;gt;__dims__&amp;lt;/b&amp;gt; from the left&amp;lt;br&amp;gt; to add to Shopping Cart&quot; data-ref=&quot;&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; formaction=&quot;/cart/add-to-cart/ref=dp_start-bbf_1_glance&quot; value=&quot;Add to cart&quot; aria-labelledby=&quot;submit.add-to-cart-announce&quot;&gt; is not clickable at point (1260, 539). Other element would receive the click: &lt;a tabindex=&quot;0&quot; role=&quot;option&quot; href=&quot;javascript:void(0)&quot; data-value=&quot;{&amp;quot;stringVal&amp;quot;:&amp;quot;3&amp;quot;}&quot; aria-selected=&quot;false&quot; id=&quot;quantity_2&quot; class=&quot;a-dropdown-link&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=145.0.7632.76)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [aba33f5922d41338e8ab9c13983dec4b, clickElement {id=f.6FA55138AB0EF0D2C8741B33B2688B74.d.83AAFCBF7022652D112A934D2BA6610A.e.2593}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Mohsin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:64461}, goog:processID: 24160, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:64461/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (aba33f5922d41338e8ab9c13983dec4b)] -&gt; xpath: //input[@name=&apos;submit.add-to-cart&apos;]]
+Session ID: aba33f5922d41338e8ab9c13983dec4b
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at bdd.AmazonProject1.HomePage.clickOnaddtoCart(HomePage.java:172)
+	at bdd.AmazonProject1.TestCase5_LoginandAddtoCart.addtoCard(TestCase5_LoginandAddtoCart.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4)">
-                  </a> <!-- addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4) -->
+                  <a name="addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)">
+                  </a> <!-- addtoCard(9704221424, Saniya@0209, Jackets, 3, 2) -->
                   <span class="method-name">addtoCard</span>
-                  <span class="parameters">(6304188726,Saniya@1234,Men shoe,1,4)</span>
+                  <span class="parameters">(9704221424,Saniya@0209,Jackets,3,2)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element &lt;input id=&quot;add-to-cart-button&quot; name=&quot;submit.add-to-cart&quot; title=&quot;Add to Shopping Cart&quot; data-hover=&quot;Select &amp;lt;b&amp;gt;__dims__&amp;lt;/b&amp;gt; from the left&amp;lt;br&amp;gt; to add to Shopping Cart&quot; data-ref=&quot;&quot; class=&quot;a-button-input&quot; type=&quot;submit&quot; formaction=&quot;/cart/add-to-cart/ref=dp_start-bbf_1_glance&quot; value=&quot;Add to cart&quot; aria-labelledby=&quot;submit.add-to-cart-announce&quot;&gt; is not clickable at point (1260, 563). Other element would receive the click: &lt;a tabindex=&quot;0&quot; role=&quot;option&quot; href=&quot;javascript:void(0)&quot; data-value=&quot;{&amp;quot;stringVal&amp;quot;:&amp;quot;3&amp;quot;}&quot; aria-selected=&quot;false&quot; id=&quot;quantity_2&quot; class=&quot;a-dropdown-link&quot;&gt;...&lt;/a&gt;
+  (Session info: chrome=145.0.7632.76)
+Build info: version: &apos;4.39.0&apos;, revision: &apos;126f156aee&apos;
+System info: os.name: &apos;Windows 11&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;21.0.7&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [42673d124ce878be782d609827f1a8c8, clickElement {id=f.39251F0E49454BAE0A58F26CF5A1453C.d.FAF7094155399FC51191CB52C87C4DFA.e.2927}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 145.0.7632.76, chrome: {chromedriverVersion: 145.0.7632.77 (da516187054a..., userDataDir: C:\Users\Mohsin\AppData\Loc...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:65515}, goog:processID: 17100, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:65515/devtoo..., se:cdpVersion: 145.0.7632.76, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (42673d124ce878be782d609827f1a8c8)] -&gt; xpath: //input[@name=&apos;submit.add-to-cart&apos;]]
+Session ID: 42673d124ce878be782d609827f1a8c8
+	at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:142)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:561)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
+	at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
+	at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
+	at bdd.AmazonProject1.HomePage.clickOnaddtoCart(HomePage.java:172)
+	at bdd.AmazonProject1.TestCase5_LoginandAddtoCart.addtoCard(TestCase5_LoginandAddtoCart.java:41)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 34 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-skipped -->
+          <div class="suite-Regression_Suite-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">bdd.AmazonProject1.Testcase1_LoginToAmazon</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValidcredentials(9704221424, Saniya@0209)">
+                  </a> <!-- loginwithValidcredentials(9704221424, Saniya@0209) -->
+                  <span class="method-name">loginwithValidcredentials</span>
+                  <span class="parameters">(9704221424,Saniya@0209)</span>
+                  <div class="stack-trace">java.lang.NullPointerException: Cannot invoke &quot;org.openqa.selenium.WebDriver.getClass()&quot; because &quot;exceptionDriver&quot; is null
+	at org.openqa.selenium.support.ui.WebDriverWait.timeoutException(WebDriverWait.java:85)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:228)
+	at bdd.AmazonProject1.HomePage.signinClick(HomePage.java:93)
+	at bdd.AmazonProject1.Testcase1_LoginToAmazon.loginwithValidcredentials(Testcase1_LoginToAmazon.java:30)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1596)
+... Removed 29 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-skipped -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bdd.AmazonProject1.Testcase2_LoginAndlogout</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutToAmazon(9704221424, Saniya@0209)">
+                  </a> <!-- logoutToAmazon(9704221424, Saniya@0209) -->
+                  <span class="method-name">logoutToAmazon</span>
+                  <span class="parameters">(9704221424,Saniya@0209)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="logoutToAmazon(6304188726, Saniya@1234)">
+                  </a> <!-- logoutToAmazon(6304188726, Saniya@1234) -->
+                  <span class="method-name">logoutToAmazon</span>
+                  <span class="parameters">(6304188726,Saniya@1234)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -239,90 +355,50 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="searchProduct(9704221424, Saniya@0209, Mobiles, 3)">
-                  </a> <!-- searchProduct(9704221424, Saniya@0209, Mobiles, 3) -->
-                  <span class="method-name">searchProduct</span>
-                  <span class="parameters">(9704221424,Saniya@0209,Mobiles,3)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
                   <a name="searchProduct(6304188726, Saniya@1234, Men shoe, 1)">
                   </a> <!-- searchProduct(6304188726, Saniya@1234, Men shoe, 1) -->
                   <span class="method-name">searchProduct</span>
                   <span class="parameters">(6304188726,Saniya@1234,Men shoe,1)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="searchProduct(9704221424, Saniya@0209, Mobiles, 3)">
+                  </a> <!-- searchProduct(9704221424, Saniya@0209, Mobiles, 3) -->
+                  <span class="method-name">searchProduct</span>
+                  <span class="parameters">(9704221424,Saniya@0209,Mobiles,3)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Suite-class-passed -->
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems</span>
+              <span class="class-name">bdd.AmazonProject1.TestCase9_LoginAndPayment</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)">
-                  </a> <!-- addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4) -->
-                  <span class="method-name">addedCartItem</span>
+                  <a name="checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4)">
+                  </a> <!-- checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4) -->
+                  <span class="method-name">checkoutpaymeent</span>
                   <span class="parameters">(6304188726,Saniya@1234,Men shoe,1,4)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2)">
-                  </a> <!-- addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2) -->
-                  <span class="method-name">addedCartItem</span>
-                  <span class="parameters">(9704221424,Saniya@0209,Jackets,3,2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Suite-class-passed -->
           <div class="suite-Regression_Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems</span>
+              <span class="class-name">bdd.AmazonProject1.TestCase5_LoginandAddtoCart</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)">
-                  </a> <!-- RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4) -->
-                  <span class="method-name">RemoveCartItem</span>
+                  <a name="addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4)">
+                  </a> <!-- addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4) -->
+                  <span class="method-name">addtoCard</span>
                   <span class="parameters">(6304188726,Saniya@1234,Men shoe,1,4)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2)">
-                  </a> <!-- RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2) -->
-                  <span class="method-name">RemoveCartItem</span>
-                  <span class="parameters">(9704221424,Saniya@0209,Jackets,3,2)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-            </div> <!-- main-panel-content rounded-window-bottom -->
-          </div> <!-- suite-Regression_Suite-class-passed -->
-          <div class="suite-Regression_Suite-class-passed">
-            <div class="main-panel-header rounded-window-top">
-              <img src="passed.png"/>
-              <span class="class-name">bdd.AmazonProject1.Testcase2_LoginAndlogout</span>
-            </div> <!-- main-panel-header rounded-window-top -->
-            <div class="main-panel-content rounded-window-bottom">
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoutToAmazon(6304188726, Saniya@1234)">
-                  </a> <!-- logoutToAmazon(6304188726, Saniya@1234) -->
-                  <span class="method-name">logoutToAmazon</span>
-                  <span class="parameters">(6304188726,Saniya@1234)</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="logoutToAmazon(9704221424, Saniya@0209)">
-                  </a> <!-- logoutToAmazon(9704221424, Saniya@0209) -->
-                  <span class="method-name">logoutToAmazon</span>
-                  <span class="parameters">(9704221424,Saniya@0209)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -351,6 +427,30 @@
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
           </div> <!-- suite-Regression_Suite-class-passed -->
+          <div class="suite-Regression_Suite-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">bdd.AmazonProject1.Testcase1_LoginToAmazon</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValidcredentials(6304188726, Saniya@1234)">
+                  </a> <!-- loginwithValidcredentials(6304188726, Saniya@1234) -->
+                  <span class="method-name">loginwithValidcredentials</span>
+                  <span class="parameters">(6304188726,Saniya@1234)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginwithValidcredentials(9704221424, Saniya@0209)">
+                  </a> <!-- loginwithValidcredentials(9704221424, Saniya@0209) -->
+                  <span class="method-name">loginwithValidcredentials</span>
+                  <span class="parameters">(9704221424,Saniya@0209)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Regression_Suite-class-passed -->
         </div> <!-- panel Regression_Suite -->
         <div panel-name="test-xml-Regression_Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
@@ -360,20 +460,19 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite name=&quot;Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Regression Test&quot; verbose=&quot;0&quot;&gt;
+&lt;suite thread-count=&quot;2&quot; name=&quot;Regression Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; name=&quot;Regression Test1&quot; verbose=&quot;0&quot;&gt;
     &lt;parameter name=&quot;browser&quot; value=&quot;chrome&quot;/&gt;
     &lt;parameter name=&quot;url&quot; value=&quot;https://www.amazon.in/&quot;/&gt;
     &lt;classes&gt;
       &lt;class name=&quot;bdd.AmazonProject1.Testcase1_LoginToAmazon&quot;/&gt;
-      &lt;class name=&quot;bdd.AmazonProject1.Testcase2_LoginAndlogout&quot;/&gt;
       &lt;class name=&quot;bdd.AmazonProject1.TestCase3_LoginandSearchProduct&quot;/&gt;
       &lt;class name=&quot;bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout&quot;/&gt;
+      &lt;class name=&quot;bdd.AmazonProject1.Testcase2_LoginAndlogout&quot;/&gt;
       &lt;class name=&quot;bdd.AmazonProject1.TestCase5_LoginandAddtoCart&quot;/&gt;
-      &lt;class name=&quot;bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems&quot;/&gt;
-      &lt;class name=&quot;bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems&quot;/&gt;
+      &lt;class name=&quot;bdd.AmazonProject1.TestCase9_LoginAndPayment&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- Regression Test --&gt;
+  &lt;/test&gt; &lt;!-- Regression Test1 --&gt;
 &lt;/suite&gt; &lt;!-- Regression Suite --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -385,7 +484,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">Regression Test (7 classes)</span>
+                <span class="test-name">Regression Test1 (6 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -395,14 +494,6 @@
             <span class="header-content">Groups for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="test-group">
-              <span class="test-group-name">regression</span>
-              <br/>
-              <div class="method-in-group">
-                <span class="method-in-group-name">logoutToAmazon</span>
-                <br/>
-              </div> <!-- method-in-group -->
-            </div> <!-- test-group -->
             <div class="test-group">
               <span class="test-group-name">smoke</span>
               <br/>
@@ -437,66 +528,66 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(14);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'addtoCard')
-data.setCell(0, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
-data.setCell(0, 3, 36976);
+data.setCell(0, 1, 'checkoutpaymeent')
+data.setCell(0, 2, 'bdd.AmazonProject1.TestCase9_LoginAndPayment')
+data.setCell(0, 3, 47283);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'addedCartItem')
-data.setCell(1, 2, 'bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems')
-data.setCell(1, 3, 33179);
+data.setCell(1, 1, 'searchProduct')
+data.setCell(1, 2, 'bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout')
+data.setCell(1, 3, 25410);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'addedCartItem')
-data.setCell(2, 2, 'bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems')
-data.setCell(2, 3, 29147);
+data.setCell(2, 1, 'addtoCard')
+data.setCell(2, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
+data.setCell(2, 3, 22659);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'RemoveCartItem')
-data.setCell(3, 2, 'bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems')
-data.setCell(3, 3, 28698);
+data.setCell(3, 1, 'addtoCard')
+data.setCell(3, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
+data.setCell(3, 3, 21161);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'RemoveCartItem')
-data.setCell(4, 2, 'bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems')
-data.setCell(4, 3, 28145);
+data.setCell(4, 1, 'searchProduct')
+data.setCell(4, 2, 'bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout')
+data.setCell(4, 3, 20516);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'logoutToAmazon')
-data.setCell(5, 2, 'bdd.AmazonProject1.Testcase2_LoginAndlogout')
-data.setCell(5, 3, 28144);
+data.setCell(5, 1, 'addtoCard')
+data.setCell(5, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
+data.setCell(5, 3, 19457);
 data.setCell(6, 0, 6)
-data.setCell(6, 1, 'addtoCard')
-data.setCell(6, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
-data.setCell(6, 3, 21961);
+data.setCell(6, 1, 'searchProduct')
+data.setCell(6, 2, 'bdd.AmazonProject1.TestCase3_LoginandSearchProduct')
+data.setCell(6, 3, 15685);
 data.setCell(7, 0, 7)
 data.setCell(7, 1, 'searchProduct')
-data.setCell(7, 2, 'bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout')
-data.setCell(7, 3, 21140);
+data.setCell(7, 2, 'bdd.AmazonProject1.TestCase3_LoginandSearchProduct')
+data.setCell(7, 3, 13316);
 data.setCell(8, 0, 8)
-data.setCell(8, 1, 'searchProduct')
-data.setCell(8, 2, 'bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout')
-data.setCell(8, 3, 20900);
+data.setCell(8, 1, 'loginwithValidcredentials')
+data.setCell(8, 2, 'bdd.AmazonProject1.Testcase1_LoginToAmazon')
+data.setCell(8, 3, 12378);
 data.setCell(9, 0, 9)
-data.setCell(9, 1, 'searchProduct')
-data.setCell(9, 2, 'bdd.AmazonProject1.TestCase3_LoginandSearchProduct')
-data.setCell(9, 3, 13449);
+data.setCell(9, 1, 'addtoCard')
+data.setCell(9, 2, 'bdd.AmazonProject1.TestCase5_LoginandAddtoCart')
+data.setCell(9, 3, 12355);
 data.setCell(10, 0, 10)
-data.setCell(10, 1, 'searchProduct')
-data.setCell(10, 2, 'bdd.AmazonProject1.TestCase3_LoginandSearchProduct')
-data.setCell(10, 3, 12287);
+data.setCell(10, 1, 'logoutToAmazon')
+data.setCell(10, 2, 'bdd.AmazonProject1.Testcase2_LoginAndlogout')
+data.setCell(10, 3, 12226);
 data.setCell(11, 0, 11)
 data.setCell(11, 1, 'loginwithValidcredentials')
 data.setCell(11, 2, 'bdd.AmazonProject1.Testcase1_LoginToAmazon')
-data.setCell(11, 3, 10690);
+data.setCell(11, 3, 11617);
 data.setCell(12, 0, 12)
 data.setCell(12, 1, 'logoutToAmazon')
 data.setCell(12, 2, 'bdd.AmazonProject1.Testcase2_LoginAndlogout')
-data.setCell(12, 3, 9670);
+data.setCell(12, 3, 9767);
 data.setCell(13, 0, 13)
 data.setCell(13, 1, 'loginwithValidcredentials')
 data.setCell(13, 2, 'bdd.AmazonProject1.Testcase1_LoginToAmazon')
-data.setCell(13, 3, 8024);
+data.setCell(13, 3, 6797);
 window.suiteTableData['Regression_Suite']= { tableData: data, tableDiv: 'times-div-Regression_Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <span class="suite-total-time">Total running time: 4 minutes</span>
               <div id="times-div-Regression_Suite">
               </div> <!-- times-div-Regression_Suite -->
             </div> <!-- times-div -->
@@ -507,26 +598,6 @@ return data;
             <span class="header-content">Reporter output for Regression Suite</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Browser Launched</span>
-                <span class="reporter-method-output">Mobile Number Entered</span>
-                <span class="reporter-method-output">Password Entered</span>
-                <span class="reporter-method-output">Succesfully Login to Amazon</span>
-                <span class="reporter-method-output">All items are displayed</span>
-                <span class="reporter-method-output">Clicked on Add to cart button</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Mobile Number Entered</span>
-                <span class="reporter-method-output">Password Entered</span>
-                <span class="reporter-method-output">Succesfully Login to Amazon</span>
-                <span class="reporter-method-output">All items are displayed</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
               <span class="reporter-method-name">searchProduct(6304188726, Saniya@1234, Men shoe, 1)</span>
               <div class="reporter-method-output-div">
@@ -545,11 +616,31 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">loginwithValidcredentials(9704221424, Saniya@0209)</span>
+              <span class="reporter-method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Mobile Number Entered</span>
                 <span class="reporter-method-output">Password Entered</span>
                 <span class="reporter-method-output">Succesfully Login to Amazon</span>
+                <span class="reporter-method-output">All items are displayed</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">logoutToAmazon(9704221424, Saniya@0209)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Mobile Number Entered</span>
+                <span class="reporter-method-output">Password Entered</span>
+                <span class="reporter-method-output">Succesfully Login to Amazon</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser Launched</span>
+                <span class="reporter-method-output">Mobile Number Entered</span>
+                <span class="reporter-method-output">Password Entered</span>
+                <span class="reporter-method-output">Succesfully Login to Amazon</span>
+                <span class="reporter-method-output">All items are displayed</span>
+                <span class="reporter-method-output">Clicked on Add to cart button</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -561,12 +652,11 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
+              <span class="reporter-method-name">loginwithValidcredentials(9704221424, Saniya@0209)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Mobile Number Entered</span>
                 <span class="reporter-method-output">Password Entered</span>
                 <span class="reporter-method-output">Succesfully Login to Amazon</span>
-                <span class="reporter-method-output">All items are displayed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -579,47 +669,12 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
+              <span class="reporter-method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
               <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Browser Launched</span>
                 <span class="reporter-method-output">Mobile Number Entered</span>
                 <span class="reporter-method-output">Password Entered</span>
                 <span class="reporter-method-output">Succesfully Login to Amazon</span>
                 <span class="reporter-method-output">All items are displayed</span>
-                <span class="reporter-method-output">Clicked on Add to cart button</span>
-                <span class="reporter-method-output">Items are  available in cart page</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Browser Launched</span>
-                <span class="reporter-method-output">Mobile Number Entered</span>
-                <span class="reporter-method-output">Password Entered</span>
-                <span class="reporter-method-output">Succesfully Login to Amazon</span>
-                <span class="reporter-method-output">All items are displayed</span>
-                <span class="reporter-method-output">Clicked on Add to cart button</span>
-                <span class="reporter-method-output">Items are  available in cart page</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Browser Launched</span>
-                <span class="reporter-method-output">Mobile Number Entered</span>
-                <span class="reporter-method-output">Password Entered</span>
-                <span class="reporter-method-output">Succesfully Login to Amazon</span>
-                <span class="reporter-method-output">All items are displayed</span>
-                <span class="reporter-method-output">Clicked on Add to cart button</span>
-                <span class="reporter-method-output">Items are  available in cart page</span>
-              </div> <!-- reporter-method-output-div -->
-            </div> <!-- reporter-method-div -->
-            <div class="reporter-method-div">
-              <span class="reporter-method-name">logoutToAmazon(9704221424, Saniya@0209)</span>
-              <div class="reporter-method-output-div">
-                <span class="reporter-method-output">Mobile Number Entered</span>
-                <span class="reporter-method-output">Password Entered</span>
-                <span class="reporter-method-output">Succesfully Login to Amazon</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
@@ -634,15 +689,29 @@ return data;
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
             <div class="reporter-method-div">
-              <span class="reporter-method-name">addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</span>
+              <span class="reporter-method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser Launched</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
               <div class="reporter-method-output-div">
                 <span class="reporter-method-output">Browser Launched</span>
                 <span class="reporter-method-output">Mobile Number Entered</span>
                 <span class="reporter-method-output">Password Entered</span>
                 <span class="reporter-method-output">Succesfully Login to Amazon</span>
                 <span class="reporter-method-output">All items are displayed</span>
-                <span class="reporter-method-output">Clicked on Add to cart button</span>
-                <span class="reporter-method-output">Items are  available in cart page</span>
+              </div> <!-- reporter-method-output-div -->
+            </div> <!-- reporter-method-div -->
+            <div class="reporter-method-div">
+              <span class="reporter-method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
+              <div class="reporter-method-output-div">
+                <span class="reporter-method-output">Browser Launched</span>
+                <span class="reporter-method-output">Mobile Number Entered</span>
+                <span class="reporter-method-output">Password Entered</span>
+                <span class="reporter-method-output">Succesfully Login to Amazon</span>
+                <span class="reporter-method-output">All items are displayed</span>
               </div> <!-- reporter-method-output-div -->
             </div> <!-- reporter-method-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -667,185 +736,184 @@ return data;
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginwithValidcredentials(6304188726, Saniya@1234)</span>
-                <span class="method-start">5236 ms</span>
+                <span class="method-start">1616 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">16240 ms</span>
+                <span class="method-start">8788 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">16464 ms</span>
+                <span class="method-start">8981 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">loginwithValidcredentials(9704221424, Saniya@0209)</span>
-                <span class="method-start">39082 ms</span>
+                <span class="method-start">10266 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">47340 ms</span>
-              </div> <!-- configuration-method after -->
-            </div> <!-- chronological-class -->
-            <div class="chronological-class">
-              <div class="chronological-class-name">bdd.AmazonProject1.Testcase2_LoginAndlogout</div> <!-- chronological-class-name -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">47542 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">logoutToAmazon(6304188726, Saniya@1234)</span>
-                <span class="method-start">50576 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitbrowser</span>
-                <span class="method-start">60388 ms</span>
+                <span class="method-start">22645 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">60585 ms</span>
+                <span class="method-start">22962 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">logoutToAmazon(9704221424, Saniya@0209)</span>
-                <span class="method-start">94237 ms</span>
+                <span class="method-name">loginwithValidcredentials(9704221424, Saniya@0209)</span>
+                <span class="method-start">24272 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">122498 ms</span>
+                <span class="method-start">36498 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bdd.AmazonProject1.TestCase3_LoginandSearchProduct</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">122748 ms</span>
+                <span class="method-start">37924 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchProduct(6304188726, Saniya@1234, Men shoe, 1)</span>
-                <span class="method-start">128926 ms</span>
+                <span class="method-start">39574 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">143230 ms</span>
+                <span class="method-start">59238 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">143459 ms</span>
+                <span class="method-start">59635 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
-                <span class="method-start">145528 ms</span>
+                <span class="method-start">61376 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">164922 ms</span>
+                <span class="method-start">80940 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bdd.AmazonProject1.TestCase4_LoginAndSearchProductandLogout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">165234 ms</span>
+                <span class="method-start">81312 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchProduct(6304188726, Saniya@1234, Men shoe, 1)</span>
-                <span class="method-start">168700 ms</span>
+                <span class="method-start">83302 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">189971 ms</span>
+                <span class="method-start">103973 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">190202 ms</span>
+                <span class="method-start">104320 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">searchProduct(9704221424, Saniya@0209, Mobiles, 3)</span>
-                <span class="method-start">192295 ms</span>
+                <span class="method-start">105916 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">213325 ms</span>
+                <span class="method-start">131460 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">bdd.AmazonProject1.TestCase5_LoginandAddtoCart</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">213604 ms</span>
+                <span class="method-start">131845 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addtoCard(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
-                <span class="method-start">215834 ms</span>
+                <span class="method-start">133498 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">238011 ms</span>
+                <span class="method-start">156521 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">238234 ms</span>
+                <span class="method-start">157814 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
                 <span class="method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
-                <span class="method-start">240413 ms</span>
+                <span class="method-start">159415 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">277778 ms</span>
+                <span class="method-start">180578 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
+                <span class="method-start">180876 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
+                <span class="method-start">182357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitbrowser</span>
+                <span class="method-start">201814 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
+                <span class="method-start">202048 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">addtoCard(9704221424, Saniya@0209, Jackets, 3, 2)</span>
+                <span class="method-start">203670 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">quitbrowser</span>
+                <span class="method-start">216609 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">bdd.AmazonProject1.TestCase6_LoginAndRemoveCartItems</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bdd.AmazonProject1.TestCase9_LoginAndPayment</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">278053 ms</span>
+                <span class="method-start">216812 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">RemoveCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
-                <span class="method-start">280471 ms</span>
+                <span class="method-name">checkoutpaymeent(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
+                <span class="method-start">218147 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">309326 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="configuration-method before">
-                <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">309542 ms</span>
-              </div> <!-- configuration-method before -->
-              <div class="test-method">
-                <span class="method-name">RemoveCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</span>
-                <span class="method-start">312012 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">quitbrowser</span>
-                <span class="method-start">340386 ms</span>
+                <span class="method-start">265641 ms</span>
               </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">bdd.AmazonProject1.TestCase7_LoginAndIncreaseCartItems</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">bdd.AmazonProject1.Testcase2_LoginAndlogout</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">340889 ms</span>
+                <span class="method-start">265880 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addedCartItem(6304188726, Saniya@1234, Men shoe, 1, 4)</span>
-                <span class="method-start">343585 ms</span>
+                <span class="method-name">logoutToAmazon(6304188726, Saniya@1234)</span>
+                <span class="method-start">267393 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">373048 ms</span>
+                <span class="method-start">277291 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">launchbrowser(chrome, https://www.amazon.in/)</span>
-                <span class="method-start">373492 ms</span>
+                <span class="method-start">277476 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">addedCartItem(9704221424, Saniya@0209, Jackets, 3, 2)</span>
-                <span class="method-start">375966 ms</span>
+                <span class="method-name">logoutToAmazon(9704221424, Saniya@0209)</span>
+                <span class="method-start">279026 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">quitbrowser</span>
-                <span class="method-start">409406 ms</span>
+                <span class="method-start">291384 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->

@@ -20,14 +20,18 @@ import org.testng.asserts.SoftAssert;
 
 public class AddToCartPage {
 	
+	public SoftAssert sa;
+	
 	public  WebDriver driver;
 	
-	FluentWait<WebDriver> wait= new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
-			.pollingEvery(Duration.ofSeconds(1)).ignoring(Exception.class);
+	FluentWait<WebDriver> wait;
 			
 	
 	public AddToCartPage(WebDriver driver) {
 		this.driver=driver;
+		
+		wait= new FluentWait<>(driver).withTimeout(Duration.ofSeconds(10))
+				.pollingEvery(Duration.ofSeconds(1)).ignoring(Exception.class);
 		PageFactory.initElements(driver, this);
 		
 	}
@@ -56,7 +60,7 @@ public class AddToCartPage {
 	
 	
 	
-	SoftAssert sa= new SoftAssert();
+	
 	
 	
 	public void navigateToAddtoCart() {
